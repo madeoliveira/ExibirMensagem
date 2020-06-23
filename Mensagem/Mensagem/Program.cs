@@ -12,7 +12,7 @@ namespace Mensagem
         {
             Message mensagem;
             mensagem = new Message();
-            mensagem.TextMessage = "Olá, Mundo!";
+            mensagem.setTextMessage("Olá, Mundo");
             mensagem.ShowMessage();
 
             
