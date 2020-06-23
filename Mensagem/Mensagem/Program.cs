@@ -13,7 +13,8 @@ namespace Mensagem
             Message mensagem;
             mensagem = new Message();
             mensagem.setTextMessage("Olá, Mundo");
-            mensagem.ShowMessage();
+            Console.WriteLine(mensagem.getTextMessage());
+    
 
             
             Console.ReadLine();
