@@ -12,8 +12,8 @@ namespace Mensagem
         {
             Message mensagem;
             mensagem = new Message();
-            mensagem.setTextMessage("Olá, Mundo");
-            Console.WriteLine(mensagem.getTextMessage());
+            mensagem.TextMessage = "Olá, Mundo!";
+            mensagem.ShowMessage();
     
 
             

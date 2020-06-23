@@ -8,19 +8,22 @@ namespace Mensagem
 {
     public class Message
     {
-       private String TextMessage;
-       public void ShowMessage()
+        private String textMessage;
+        public String TextMessage
         {
-            Console.WriteLine(this.TextMessage);
+            get
+            {
+                return this.textMessage;
+            }
+            set
+            {
+                this.textMessage = value.ToUpper();
+            }
         }
 
-        public String getTextMessage()
+        public void ShowMessage() 
         {
-            return this.TextMessage;
-        }
-        public void setTextMessage(String valor)
-        {
-            this.TextMessage = valor;
+            Console.WriteLine(this.TextMessage);
         }
     }
 }
