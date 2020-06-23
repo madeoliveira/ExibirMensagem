@@ -10,7 +10,12 @@ namespace Mensagem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá, Mundo!");
+            Message mensagem;
+            mensagem = new Message();
+            mensagem.TextMessage = "Olá, Mundo!";
+            mensagem.ShowMessage();
+
+            
             Console.ReadLine();
         }
     }
